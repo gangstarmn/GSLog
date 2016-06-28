@@ -10,8 +10,6 @@
 
 #import <ATLog/ATLog.h>
 
-#import "GSLocalize.h"
-
 #   define ATLogError(fmt...)       ATPrettyLog(@"\033[fg255,0,0;\033[bg255,255,255; %@ \033[;",ATStringWithFormat(fmt))
 #   define ATLogWarning(fmt...)     ATPrettyLog(@"\033[fg255,255,0;\033[bg220,0,0; %@ \033[;",ATStringWithFormat(fmt))
 #   define ATLogURL(fmt...)         ATPrettyLog(@"\033[fg0,0,255;\033[bg255,255,255; %@ \033[;",ATStringWithFormat(fmt))

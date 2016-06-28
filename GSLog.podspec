@@ -1,6 +1,6 @@
  Pod::Spec.new do |s|
   s.name         = "GSLog"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "GSLog is colored log"
   s.description  = <<-DESC
                     Colored log using xCodeColors. easy ti use
@@ -11,7 +11,7 @@
   s.platform = :ios, '8.0'
   s.source = { :git => 'https://github.com/gangstarmn/GSLog.git', :tag => "#{s.version}" }
   
-  s.source_files = "GSLog/**/*.{h,m}"
+  s.source_files = "GSLog/*.{h,m}"
   
   s.framework = 'UIKit'
   s.requires_arc = true
