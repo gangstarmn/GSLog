@@ -4,6 +4,6 @@
 # use_frameworks!
 
 target 'GSLog' do
-	pod 'ATLog'
+#	pod 'ATLog'
 end
 
